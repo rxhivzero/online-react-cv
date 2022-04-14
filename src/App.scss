@@ -1,0 +1,11 @@
+@function getWidth750($width) {
+    @return calc($width * 100vw / 750);
+}
+
+html {
+    font-size: getWidth750(10);
+}
+
+body {
+    background-color: #f5f5f5;
+}
