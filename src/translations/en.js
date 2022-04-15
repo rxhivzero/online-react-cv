@@ -1,7 +1,7 @@
 import image from 'image.jpeg';
 
 const tw = {
-    download: 'PDF',
+    download: 'Download',
     cvData: {
         personalData: {
             name: '施凱中 Kai',
@@ -10,7 +10,7 @@ const tw = {
             contacts: [
                 { type: 'email', value: 'rxhivzero@gmail.com' },
                 { type: 'phone', value: '0955506959' },
-                { type: 'location', value: '台北市' },
+                { type: 'location', value: 'Taipei' },
                 { type: 'github', value: 'https://github.com/rxhivzero' },
                 { type: 'download', value: 'https://reurl.cc/dXdY3V' },
                 // { type: 'website', value: 'https://github.com/rxhivzero' },
@@ -21,176 +21,175 @@ const tw = {
         sections: [
             {
                 type: 'text',
-                title: '個人簡介',
-                content:
-                    '擅長javascript、React、React Native、Node.js\n專職前端Web、Mobile App開發',
+                title: 'Profile',
+                content: 'React, React Native, Node.js\n Front-end Web, Mobile App development',
                 icon: 'usertie',
             },
             {
                 type: 'experiences-list',
-                title: '工作經歷',
+                title: 'Experiences',
                 description: '',
                 icon: 'archive',
                 items: [
                     {
-                        title: '資深前端工程師',
-                        company: '安璞資訊',
+                        title: 'Senior Frontend Developer',
+                        company: '安璞資訊 Amber NetWork',
                         companyWebSite: 'http://www.ambernet.com.tw/',
                         companyMeta: '',
                         datesBetween: '2021.02 - 在職',
                         descriptionTags: ['React', 'React Native'],
                         description:
-                            'React開發Web、React Native開發App\n主要開發鳳凰娛樂H5與APP、博貓遊戲APP、CCAV等應用',
+                            'React develop Web、React Native develop App\nmain develop 鳳凰娛樂H5、APP、博貓遊戲APP、CCAV',
                     },
                     {
-                        title: '前端主管',
+                        title: 'Frontend Leader',
                         company: 'Teaches趣開課',
                         companyWebSite: 'https://teaches.cc/',
                         companyMeta: '',
                         datesBetween: '2020.03 - 2022.11',
                         descriptionTags: ['React'],
                         description:
-                            '主要開發教學應用平台、線上開課、募資讓使用者購買課程\n包含前台與使用者管理後台',
+                            'Main develop Teaching application platform, online courses, fundraising for users to purchase courses\nIncluding front desk and user management backend',
                     },
                     {
-                        title: '資深前端工程師',
+                        title: 'Senior Frontend Developer',
                         company: 'Cofit群健科技',
                         companyWebSite: 'https://events.cofit.me/cofitme',
                         companyMeta: '',
                         datesBetween: '2018.03 - 2020.03',
                         descriptionTags: ['React', 'React Native'],
                         description:
-                            '使用React Native開發app與React開發Web\n主要開發健康紀錄、即時訊息、照片、影片社群、電商等功能\n包含Apple、Google雙平台上架、CodePush更新以及微信、綠界等支付前端串接與錯誤處理',
+                            'Use React Native develop app and React develop Web\nmain develop health records, instant messages, photos, video communities, e-commerce and other functions\nIncludes Apple, Google dual platform listing, CodePush update',
                     },
                     {
-                        title: '資深前端工程師',
+                        title: 'Senior Frontend Developer',
                         company: '邦南國際',
                         companyWebSite: '',
                         companyMeta: '',
                         datesBetween: '2017.03 - 2018.02',
                         descriptionTags: ['React', 'React Native', 'Node.js'],
                         description:
-                            '使用React Native開發app與React 開發Web\n主要開發柬埔寨交易所證券、期權交易、虛擬貨幣交易等功能\n包含股票技術分析、圖表、socket即時報價與交易',
+                            'Use React Native develop app and React  develop Web\nmain develop Cambodia Exchange securities, options trading, virtual currency trading and other functions\nInclude stock technical analysis, charts, socket real-time quotes and transactions',
                     },
                     {
-                        title: '軟體研發工程師',
-                        company: '三竹資訊',
+                        title: 'Software Developer',
+                        company: 'Mitake三竹資訊',
                         companyWebSite: 'https://www.mitake.com.tw/',
                         companyMeta: '',
                         datesBetween: '2015.06 - 2017.02',
                         descriptionTags: ['React', 'Node.js'],
                         description:
-                            '使用React 開發Web與node.js開發後台系統，App部分使用Web View\n主要開發證券、期權交易、股票資料分析等功能',
+                            'Use React  develop Web and node.js develop back-end system, the App part uses Web View\nmain develop functions such as securities, options trading, stock data analysis, etc.',
                     },
                     {
-                        title: '軟體研發工程師',
+                        title: 'Software Developer',
                         company: 'QNAP威聯通科技',
                         companyWebSite: 'https://www.qnap.com',
                         companyMeta: '',
                         datesBetween: '2014.10 - 2015.05',
                         descriptionTags: ['Angular', 'Node.js'],
                         description:
-                            '軟體研發工程師\n使用Angular 開發Web與Node.js、PHP開發後端\n主要開發Nas數位看板前後台系統',
+                            'Use Angular  develop Web and Node.js、PHP develop 後端\nmain develop Nas digital signage system',
                     },
                 ],
             },
             {
                 type: 'projects-list',
-                title: '專案經歷',
-                description: '線上專案',
+                title: 'Projects list',
+                description: 'Online project',
                 icon: 'tasks',
                 groups: [
                     {
-                        sectionHeader: '安璞資訊',
-                        description: '使用React與RN',
+                        sectionHeader: '安璞資訊 Amber NetWork',
+                        description: 'React、ReactNative',
                         items: [
                             {
                                 title: '鳳凰娛樂H5',
                                 projectUrl: 'https://www.maike2020.com/wap/',
-                                description: 'React與RN開發Web、APP',
+                                description: 'React、RN develop Web、APP',
                             },
                             {
                                 title: '博貓遊戲APP',
                                 projectUrl: 'https://bmnapp.com/',
-                                description: 'ReactNative開發APP',
+                                description: 'ReactNative develop APP',
                             },
                             {
                                 title: 'CCVA',
                                 projectUrl: 'https://app.ccav.co/install',
-                                description: 'React與RN開發Web、APP',
+                                description: 'React、RN develop Web、APP',
                             },
                         ],
                     },
                     {
                         sectionHeader: 'Teaches趣開課',
-                        description: '使用React與RN',
+                        description: 'React、ReactNative',
                         items: [
                             {
-                                title: 'Teaches趣開課線上教學平台',
+                                title: 'Teaches Online teaching platform',
                                 projectUrl: 'https://teaches.cc/',
-                                description: 'React開發Web',
+                                description: 'React develop Web',
                             },
                             {
-                                title: 'Teaches 趣開課管理介面',
+                                title: 'Teaches Online teaching admin platform',
                                 projectUrl: 'https://teaches.cc/admin/login',
-                                description: 'React開發Web',
+                                description: 'React develop Web',
                             },
                         ],
                     },
                     {
-                        sectionHeader: '群健科技',
-                        description: '使用ReactNative',
+                        sectionHeader: 'Cofit群健科技',
+                        description: 'React、ReactNative',
                         items: [
                             {
                                 title: 'Cofit - 我的專屬營養師',
                                 projectUrl:
                                     'https://apps.apple.com/tw/app/cofit-%E6%88%91%E7%9A%84%E5%B0%88%E5%B1%AC%E7%87%9F%E9%A4%8A%E5%B8%AB/id1062498342',
-                                description: 'ReactNative開發APP，雙平台上架',
+                                description: 'ReactNative develop APP',
                             },
                             {
                                 title: 'CofitPro - 營養師專用版',
                                 projectUrl:
                                     'https://apps.apple.com/tw/app/cofitpro-%E7%87%9F%E9%A4%8A%E5%B8%AB%E5%B0%88%E7%94%A8%E7%89%88/id1081798576',
-                                description: 'ReactNative開發APP，雙平台上架',
+                                description: 'ReactNative develop APP',
                             },
                             {
                                 title: '我的健身工廠 My Fitness Factory',
                                 projectUrl:
                                     'https://apps.apple.com/tw/app/%E6%88%91%E7%9A%84%E5%81%A5%E8%BA%AB%E5%B7%A5%E5%BB%A0-my-fitness-factory/id1452984430',
-                                description: 'ReactNative開發APP，雙平台上架',
+                                description: 'ReactNative develop APP',
                             },
                             {
-                                title: '社交電商App',
+                                title: 'Social commerce App',
                                 projectUrl:
                                     'https://apps.apple.com/cn/app/%E5%AE%89%E6%8D%B7%E8%8E%89%E5%A8%9C/id1479806602',
-                                description: 'ReactNative開發APP，雙平台上架',
+                                description: 'ReactNative develop APP',
                             },
                         ],
                     },
                     {
-                        sectionHeader: '三竹資訊',
-                        description: '使用React與Node',
+                        sectionHeader: 'Mitake三竹資訊',
+                        description: 'React、Node',
                         items: [
                             {
                                 title: '玉山證券智慧下單',
                                 projectUrl:
                                     'https://www.esunsec.com.tw/event/smart-intro/index.html',
-                                description: 'React開發WebView',
+                                description: 'React develop WebView',
                             },
                             {
                                 title: '永豐證券行動下單',
                                 projectUrl: 'https://www.sinotrade.com.tw/ec/20161006/index.html',
-                                description: 'React開發WebView',
+                                description: 'React develop WebView',
                             },
                         ],
                     },
                     {
                         sectionHeader: 'QNAP威聯通科技',
-                        description: '使用Angular與Node',
+                        description: 'Angular、Node',
                         items: [
                             {
-                                title: 'QNAP解決方案產品',
-                                projectUrl: 'QNAP解決方案產品',
+                                title: 'QNAP Solution',
+                                projectUrl: 'https://www.qnap.com/zh-tw/solution/',
                             },
                         ],
                     },
@@ -198,18 +197,18 @@ const tw = {
             },
             {
                 type: 'common-list',
-                title: '學歷',
+                title: 'Graduation',
                 icon: 'graduation',
                 items: [
                     {
-                        title: '國立高雄科技大學',
-                        authority: '資管系碩士班',
+                        title: 'National Kaohsiung University of Science and Technology',
+                        authority: 'Master of Information Management',
                         // authorityWebSite: 'https://sample.edu',
                         rightSide: '2012~2014',
                     },
                     {
-                        title: '國立高雄科技大學',
-                        authority: '資管系',
+                        title: 'National Kaohsiung University of Science and Technology',
+                        authority: 'Information Management',
                         // authorityWebSite: 'https://sample.edu',
                         rightSide: '2008~2012',
                     },
@@ -217,7 +216,7 @@ const tw = {
             },
             {
                 type: 'tag-list',
-                title: '主要技能',
+                title: 'Main skill',
                 icon: 'rocket',
                 items: ['React', 'React Native', 'Node.js', 'Javascript', 'TypeScript', 'CSS'],
             },
@@ -253,52 +252,48 @@ const tw = {
             // },
             {
                 type: 'common-list',
-                title: '個人榮譽',
+                title: 'Awards',
                 icon: 'comments',
                 items: [
                     {
-                        authority: 'App star 高手爭霸戰',
-                        authorityMeta: '電視決選',
+                        authority: 'App star',
+                        authorityMeta: 'TV Live',
                         authorityWebSite: 'https://www.youtube.com/watch?v=MsLMZ4-cP_Q',
                     },
                     {
-                        authority: '數位時代2011年1月刊報導作品',
-                        authorityMeta: '報導作品',
+                        authority: 'TV media news interview reports',
+                        authorityMeta: 'Report project',
                     },
                     {
-                        authority: '電視媒體:華視、鳳凰衛視、中天、東森等新聞採訪報導',
-                        authorityMeta: '報導作品',
+                        authority: 'Imagine 2011 Windows phone 7',
+                        authorityMeta: 'Global rematch',
                     },
                     {
-                        authority: 'Imagine 2011 微軟潛能創意盃 Windows phone 7設計組',
-                        authorityMeta: '入圍全球複賽',
-                    },
-                    {
-                        authority: 'Imagine 2011 微軟潛能創意盃 軟體設計組',
-                        authorityMeta: '入圍台灣區決賽',
+                        authority: 'Imagine 2011 Software design group',
+                        authorityMeta: 'Taiwan Final',
                     },
                     {
                         authority: '2010第15屆大專院校資訊服務創新競賽-公共服務應用創新組',
-                        authorityMeta: '第一名',
+                        authorityMeta: 'First',
                     },
                     {
                         authority: '2010第15屆大專院校資訊服務創新競賽-資訊應用組',
-                        authorityMeta: '第三名',
+                        authorityMeta: '3rd',
                     },
                 ],
             },
             {
                 type: 'common-list',
-                title: '語言能力',
+                title: 'Language',
                 icon: 'language',
                 items: [
                     {
-                        authority: '中文',
-                        authorityMeta: '精通',
+                        authority: 'Chinese',
+                        authorityMeta: 'Proficient',
                     },
                     {
-                        authority: '英文',
-                        authorityMeta: '中等',
+                        authority: 'English',
+                        authorityMeta: 'Medium',
                     },
                 ],
             },

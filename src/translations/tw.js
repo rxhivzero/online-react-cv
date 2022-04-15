@@ -34,7 +34,7 @@ const tw = {
                 items: [
                     {
                         title: '資深前端工程師',
-                        company: '安璞資訊',
+                        company: '安璞資訊 Amber NetWork',
                         companyWebSite: 'http://www.ambernet.com.tw/',
                         companyMeta: '',
                         datesBetween: '2021.02 - 在職',
@@ -74,7 +74,7 @@ const tw = {
                     },
                     {
                         title: '軟體研發工程師',
-                        company: '三竹資訊',
+                        company: 'Mitake三竹資訊',
                         companyWebSite: 'https://www.mitake.com.tw/',
                         companyMeta: '',
                         datesBetween: '2015.06 - 2017.02',
@@ -90,7 +90,7 @@ const tw = {
                         datesBetween: '2014.10 - 2015.05',
                         descriptionTags: ['Angular', 'Node.js'],
                         description:
-                            '軟體研發工程師\n使用Angular 開發Web與Node.js、PHP開發後端\n主要開發Nas數位看板前後台系統',
+                            '使用Angular 開發Web與Node.js、PHP開發後端\n主要開發Nas數位看板前後台系統',
                     },
                 ],
             },
@@ -101,7 +101,7 @@ const tw = {
                 icon: 'tasks',
                 groups: [
                     {
-                        sectionHeader: '安璞資訊',
+                        sectionHeader: '安璞資訊 Amber NetWork',
                         description: '使用React與RN',
                         items: [
                             {
@@ -138,7 +138,7 @@ const tw = {
                         ],
                     },
                     {
-                        sectionHeader: '群健科技',
+                        sectionHeader: 'Cofit群健科技',
                         description: '使用ReactNative',
                         items: [
                             {
@@ -168,7 +168,7 @@ const tw = {
                         ],
                     },
                     {
-                        sectionHeader: '三竹資訊',
+                        sectionHeader: 'Mitake三竹資訊',
                         description: '使用React與Node',
                         items: [
                             {
@@ -190,7 +190,7 @@ const tw = {
                         items: [
                             {
                                 title: 'QNAP解決方案產品',
-                                projectUrl: 'QNAP解決方案產品',
+                                projectUrl: 'https://www.qnap.com/zh-tw/solution/',
                             },
                         ],
                     },
