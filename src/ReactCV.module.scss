@@ -13,17 +13,11 @@
     margin-bottom: 1rem;
     user-select: none;
 
-    .language {
-        color: #485fc7;
-        margin-left: auto;
-        font-size: 1.8rem;
-    }
-
     .download {
         display: flex;
         flex-direction: row;
         align-items: center;
-        margin-left: 0.8rem;
+        margin-left: auto;
         color: #485fc7;
 
         .downloadIcon {
@@ -33,6 +27,13 @@
         .downloadText {
             margin-left: 0.2rem;
         }
+    }
+
+    .language {
+        color: #485fc7;
+
+        margin-left: 0.8rem;
+        font-size: 1.8rem;
     }
 }
 

@@ -25,6 +25,17 @@ export default class ReactCV extends Component {
             <section className={Styles.appContainer}>
                 <div className={Styles.toolBar}>
                     <div
+                        className={Styles.download}
+                        onClick={() => {
+                            window.open(
+                                ' https://drive.google.com/drive/folders/1yMFVwBS40M-GtcfLoaEO2qyMLd1nEVJY',
+                            );
+                        }}
+                    >
+                        <FontAwesomeIcon icon={faDownload} className={Styles.downloadIcon} />
+                        <div className={Styles.downloadText}> {t('download')}</div>
+                    </div>
+                    <div
                         className={Styles.language}
                         onClick={() => {
                             if (i18n.language === 'zh-TW') {
@@ -35,17 +46,6 @@ export default class ReactCV extends Component {
                         }}
                     >
                         <FontAwesomeIcon icon={faLanguage} />
-                    </div>
-                    <div
-                        className={Styles.download}
-                        onClick={() => {
-                            window.open(
-                                ' https://drive.google.com/drive/folders/1yMFVwBS40M-GtcfLoaEO2qyMLd1nEVJY',
-                            );
-                        }}
-                    >
-                        <FontAwesomeIcon icon={faDownload} className={Styles.downloadIcon} />
-                        <div className={Styles.downloadText}> {t('download')}</div>
                     </div>
                 </div>
                 <div className={Styles.cvContainer}>
