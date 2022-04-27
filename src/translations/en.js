@@ -46,7 +46,7 @@ const tw = {
                         company: 'Teaches趣開課',
                         companyWebSite: 'https://teaches.cc/',
                         companyMeta: '',
-                        datesBetween: '2020.03 - 2022.11',
+                        datesBetween: '2020.03 - 2020.11',
                         descriptionTags: ['React'],
                         description:
                             'Main develop Teaching application platform, online courses, fundraising for users to purchase courses\nIncluding front desk and user management backend',
