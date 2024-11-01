@@ -37,9 +37,9 @@ const tw = {
                         companyWebSite: 'http://www.ambernet.com.tw/',
                         companyMeta: '',
                         datesBetween: '2021.02 - 在職',
-                        descriptionTags: ['React', 'React Native'],
+                        descriptionTags: ['React', 'React Native', 'Flutter'],
                         description:
-                            'React develop Web、React Native develop App\nmain develop 鳳凰娛樂H5、APP、博貓遊戲APP、CCAV',
+                            'The main developments include the Bitcoin wallet Ubit, Phoenix Entertainment H5 and app, and the Bomao game app',
                     },
                     {
                         title: 'Frontend Leader',
@@ -112,11 +112,6 @@ const tw = {
                                 title: '博貓遊戲APP',
                                 projectUrl: 'https://bmnapp.com/',
                                 description: 'ReactNative develop APP',
-                            },
-                            {
-                                title: 'CCVA',
-                                projectUrl: 'https://app.ccav.co/install',
-                                description: 'React、RN develop Web、APP',
                             },
                         ],
                     },

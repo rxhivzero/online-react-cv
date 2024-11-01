@@ -38,9 +38,8 @@ const tw = {
                         companyWebSite: 'http://www.ambernet.com.tw/',
                         companyMeta: '',
                         datesBetween: '2021.02 - 在職',
-                        descriptionTags: ['React', 'React Native'],
-                        description:
-                            'React開發Web、React Native開發App\n主要開發鳳凰娛樂H5與APP、博貓遊戲APP、CCAV等應用',
+                        descriptionTags: ['React', 'React Native', 'Flutter'],
+                        description: '主要開發比特幣錢包Ubit、鳳凰娛樂H5與APP、博貓遊戲APP等應用',
                     },
                     {
                         title: '前端主管',
@@ -113,11 +112,6 @@ const tw = {
                                 title: '博貓遊戲APP',
                                 projectUrl: 'https://bmnapp.com/',
                                 description: 'ReactNative開發APP',
-                            },
-                            {
-                                title: 'CCVA',
-                                projectUrl: 'https://app.ccav.co/install',
-                                description: 'React與RN開發Web、APP',
                             },
                         ],
                     },
