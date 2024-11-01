@@ -47,7 +47,7 @@ const tw = {
                         companyWebSite: 'https://teaches.cc/',
                         companyMeta: '',
                         datesBetween: '2020.03 - 2020.11',
-                        descriptionTags: ['React'],
+                        descriptionTags: ['React', 'Vue'],
                         description:
                             '主要開發教學應用平台、線上開課、募資讓使用者購買課程\n包含前台與使用者管理後台',
                     },

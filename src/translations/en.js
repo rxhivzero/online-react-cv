@@ -47,7 +47,7 @@ const tw = {
                         companyWebSite: 'https://teaches.cc/',
                         companyMeta: '',
                         datesBetween: '2020.03 - 2020.11',
-                        descriptionTags: ['React'],
+                        descriptionTags: ['React', 'Vue'],
                         description:
                             'Main develop Teaching application platform, online courses, fundraising for users to purchase courses\nIncluding front desk and user management backend',
                     },
