@@ -23,7 +23,7 @@ const tw = {
                 type: 'text',
                 title: '個人簡介',
                 content:
-                    '擅長javascript、React、React Native、Node.js\n專職前端Web、Mobile App開發',
+                    '擅長javascript、React、React Native、Flutter、Node.js\n專職前端Web、Mobile App開發',
                 icon: 'usertie',
             },
             {
@@ -112,6 +112,11 @@ const tw = {
                                 title: '博貓遊戲APP',
                                 projectUrl: 'https://bmnapp.com/',
                                 description: 'ReactNative開發APP',
+                            },
+                            {
+                                title: 'Ubit比特幣錢包',
+                                projectUrl: 'https://www.yubituser.com/',
+                                description: 'Flutter開發APP',
                             },
                         ],
                     },
@@ -213,38 +218,8 @@ const tw = {
                 type: 'tag-list',
                 title: '主要技能',
                 icon: 'rocket',
-                items: ['React', 'React Native', 'Node.js', 'Javascript', 'TypeScript', 'CSS'],
+                items: ['React', 'React Native', 'Flutter', 'Node.js', 'Javascript', 'TypeScript'],
             },
-            // {
-            //     type: 'tag-list',
-            //     title: 'Hobbies & Interests',
-            //     icon: 'comments',
-            //     items: ['Photography', 'Poetry'],
-            // },
-            // {
-            //     type: 'common-list',
-            //     title: 'Conferences & Certificates',
-            //     description: '',
-            //     icon: 'comments',
-            //     items: [
-            //         {
-            //             title: 'Some Conferences / 2019',
-            //             authority: 'SomeConf',
-            //             authorityWebSite: 'https://www.someconf.somesome',
-            //         },
-            //         {
-            //             title: 'Some Conferences / 2019',
-            //             authority: 'SomeConf',
-            //             authorityMeta: 'Speaker',
-            //             authorityWebSite: 'https://www.someconf.somesome',
-            //             rightSide: 'test',
-            //         },
-            //         {
-            //             title: 'Some Conferences / 2012',
-            //             authorityMeta: 'Speaker',
-            //         },
-            //     ],
-            // },
             {
                 type: 'common-list',
                 title: '個人榮譽',

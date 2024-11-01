@@ -113,6 +113,11 @@ const tw = {
                                 projectUrl: 'https://bmnapp.com/',
                                 description: 'ReactNative develop APP',
                             },
+                            {
+                                title: 'Ubit比特幣錢包',
+                                projectUrl: 'https://www.yubituser.com/',
+                                description: 'Flutter develop APP',
+                            },
                         ],
                     },
                     {
@@ -213,38 +218,8 @@ const tw = {
                 type: 'tag-list',
                 title: 'Main skill',
                 icon: 'rocket',
-                items: ['React', 'React Native', 'Node.js', 'Javascript', 'TypeScript', 'CSS'],
+                items: ['React', 'React Native', 'Flutter', 'Node.js', 'Javascript', 'TypeScript'],
             },
-            // {
-            //     type: 'tag-list',
-            //     title: 'Hobbies & Interests',
-            //     icon: 'comments',
-            //     items: ['Photography', 'Poetry'],
-            // },
-            // {
-            //     type: 'common-list',
-            //     title: 'Conferences & Certificates',
-            //     description: '',
-            //     icon: 'comments',
-            //     items: [
-            //         {
-            //             title: 'Some Conferences / 2019',
-            //             authority: 'SomeConf',
-            //             authorityWebSite: 'https://www.someconf.somesome',
-            //         },
-            //         {
-            //             title: 'Some Conferences / 2019',
-            //             authority: 'SomeConf',
-            //             authorityMeta: 'Speaker',
-            //             authorityWebSite: 'https://www.someconf.somesome',
-            //             rightSide: 'test',
-            //         },
-            //         {
-            //             title: 'Some Conferences / 2012',
-            //             authorityMeta: 'Speaker',
-            //         },
-            //     ],
-            // },
             {
                 type: 'common-list',
                 title: 'Awards',
