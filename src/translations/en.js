@@ -1,4 +1,4 @@
-import image from 'image.jpeg';
+import image from 'image.png';
 
 const tw = {
     download: 'Download',
@@ -39,7 +39,7 @@ const tw = {
                         datesBetween: '2021.02 - 在職',
                         descriptionTags: ['React', 'React Native', 'Flutter'],
                         description:
-                            'The main developments include the Bitcoin wallet Ubit, Phoenix Entertainment H5 and app, and the Bomao game app',
+                            'The main developments include the Bitcoin wallet Ubit,Game H5 and app',
                     },
                     {
                         title: 'Frontend Leader',
@@ -89,7 +89,7 @@ const tw = {
                         datesBetween: '2014.10 - 2015.05',
                         descriptionTags: ['Angular', 'Node.js'],
                         description:
-                            'Use Angular  develop Web and Node.js、PHP develop 後端\nmain develop Nas digital signage system',
+                            'Use Angular  develop Web and Node.js、PHP develop\nmain develop Nas digital signage system',
                     },
                 ],
             },
@@ -101,68 +101,68 @@ const tw = {
                 groups: [
                     {
                         sectionHeader: '安璞資訊 Amber NetWork',
-                        description: 'React、ReactNative',
+                        description: 'React、React Native、Flutter',
                         items: [
                             {
-                                title: '鳳凰娛樂H5',
-                                projectUrl: 'https://www.maike2020.com/wap/',
-                                description: 'React、RN develop Web、APP',
-                            },
-                            {
-                                title: '博貓遊戲APP',
-                                projectUrl: 'https://bmnapp.com/',
-                                description: 'ReactNative develop APP',
-                            },
-                            {
-                                title: 'Ubit比特幣錢包',
+                                title: 'Ubit',
                                 projectUrl: 'https://www.yubituser.com/',
-                                description: 'Flutter develop APP',
+                                description: 'Flutter',
                             },
+                            {
+                                title: 'Game H5',
+                                // projectUrl: 'https://www.maike2020.com/wap/',
+                                description: 'React、React Native',
+                            },
+                            // {
+                            //     title: '博貓遊戲APP',
+                            //     projectUrl: 'https://bmnapp.com/',
+                            //     description: 'React Native',
+                            // },
                         ],
                     },
                     {
                         sectionHeader: 'Teaches趣開課',
-                        description: 'React、ReactNative',
+                        description: 'React、React Native',
                         items: [
                             {
                                 title: 'Teaches Online teaching platform',
                                 projectUrl: 'https://teaches.cc/',
-                                description: 'React develop Web',
+                                description: 'React Web',
                             },
                             {
                                 title: 'Teaches Online teaching admin platform',
                                 projectUrl: 'https://teaches.cc/admin/login',
-                                description: 'React develop Web',
+                                description: 'React Web',
                             },
                         ],
                     },
                     {
                         sectionHeader: 'Cofit群健科技',
-                        description: 'React、ReactNative',
+                        description: 'React、React Native',
                         items: [
                             {
                                 title: 'Cofit - 我的專屬營養師',
                                 projectUrl:
                                     'https://apps.apple.com/tw/app/cofit-%E6%88%91%E7%9A%84%E5%B0%88%E5%B1%AC%E7%87%9F%E9%A4%8A%E5%B8%AB/id1062498342',
-                                description: 'ReactNative develop APP',
+                                description: 'React Native',
                             },
                             {
                                 title: 'CofitPro - 營養師專用版',
                                 projectUrl:
                                     'https://apps.apple.com/tw/app/cofitpro-%E7%87%9F%E9%A4%8A%E5%B8%AB%E5%B0%88%E7%94%A8%E7%89%88/id1081798576',
-                                description: 'ReactNative develop APP',
+                                description: 'React Native',
                             },
                             {
                                 title: '我的健身工廠 My Fitness Factory',
                                 projectUrl:
                                     'https://apps.apple.com/tw/app/%E6%88%91%E7%9A%84%E5%81%A5%E8%BA%AB%E5%B7%A5%E5%BB%A0-my-fitness-factory/id1452984430',
-                                description: 'ReactNative develop APP',
+                                description: 'React Native',
                             },
                             {
                                 title: 'Social commerce App',
                                 projectUrl:
                                     'https://apps.apple.com/cn/app/%E5%AE%89%E6%8D%B7%E8%8E%89%E5%A8%9C/id1479806602',
-                                description: 'ReactNative develop APP',
+                                description: 'React Native',
                             },
                         ],
                     },

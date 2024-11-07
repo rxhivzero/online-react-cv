@@ -1,4 +1,4 @@
-import image from 'image.jpeg';
+import image from 'image.png';
 
 const tw = {
     download: '下載',
@@ -39,7 +39,8 @@ const tw = {
                         companyMeta: '',
                         datesBetween: '2021.02 - 在職',
                         descriptionTags: ['React', 'React Native', 'Flutter'],
-                        description: '主要開發比特幣錢包Ubit、鳳凰娛樂H5與APP、博貓遊戲APP等應用',
+                        description:
+                            '使用React開發Web與React Native開發app\n使用Flutter開發多平台應用\n主要開發比特幣錢包Ubit、娛樂遊戲H5與APP',
                     },
                     {
                         title: '前端主管',
@@ -101,91 +102,91 @@ const tw = {
                 groups: [
                     {
                         sectionHeader: '安璞資訊 Amber NetWork',
-                        description: '使用React與RN',
+                        description: 'React、React Native、Flutter',
                         items: [
-                            {
-                                title: '鳳凰娛樂H5',
-                                projectUrl: 'https://www.maike2020.com/wap/',
-                                description: 'React與RN開發Web、APP',
-                            },
-                            {
-                                title: '博貓遊戲APP',
-                                projectUrl: 'https://bmnapp.com/',
-                                description: 'ReactNative開發APP',
-                            },
                             {
                                 title: 'Ubit比特幣錢包',
                                 projectUrl: 'https://www.yubituser.com/',
-                                description: 'Flutter開發APP',
+                                description: 'Flutter',
                             },
+                            {
+                                title: '娛樂遊戲H5、APP',
+                                // projectUrl: 'https://www.maike2020.com/wap/',
+                                description: 'React、React Native',
+                            },
+                            // {
+                            //     title: '博貓遊戲APP',
+                            //     projectUrl: 'https://bmnapp.com/',
+                            //     description: 'React Native',
+                            // },
                         ],
                     },
                     {
                         sectionHeader: 'Teaches趣開課',
-                        description: '使用React與RN',
+                        description: 'React、React Native',
                         items: [
                             {
                                 title: 'Teaches趣開課線上教學平台',
                                 projectUrl: 'https://teaches.cc/',
-                                description: 'React開發Web',
+                                description: 'React',
                             },
                             {
                                 title: 'Teaches 趣開課管理介面',
                                 projectUrl: 'https://teaches.cc/admin/login',
-                                description: 'React開發Web',
+                                description: 'React',
                             },
                         ],
                     },
                     {
                         sectionHeader: 'Cofit群健科技',
-                        description: '使用ReactNative',
+                        description: 'React Native',
                         items: [
                             {
                                 title: 'Cofit - 我的專屬營養師',
                                 projectUrl:
                                     'https://apps.apple.com/tw/app/cofit-%E6%88%91%E7%9A%84%E5%B0%88%E5%B1%AC%E7%87%9F%E9%A4%8A%E5%B8%AB/id1062498342',
-                                description: 'ReactNative開發APP，雙平台上架',
+                                description: 'React Native開發APP，雙平台上架',
                             },
                             {
                                 title: 'CofitPro - 營養師專用版',
                                 projectUrl:
                                     'https://apps.apple.com/tw/app/cofitpro-%E7%87%9F%E9%A4%8A%E5%B8%AB%E5%B0%88%E7%94%A8%E7%89%88/id1081798576',
-                                description: 'ReactNative開發APP，雙平台上架',
+                                description: 'React Native開發APP，雙平台上架',
                             },
                             {
                                 title: '我的健身工廠 My Fitness Factory',
                                 projectUrl:
                                     'https://apps.apple.com/tw/app/%E6%88%91%E7%9A%84%E5%81%A5%E8%BA%AB%E5%B7%A5%E5%BB%A0-my-fitness-factory/id1452984430',
-                                description: 'ReactNative開發APP，雙平台上架',
+                                description: 'React Native開發APP，雙平台上架',
                             },
                             {
                                 title: '社交電商App',
                                 projectUrl:
                                     'https://apps.apple.com/cn/app/%E5%AE%89%E6%8D%B7%E8%8E%89%E5%A8%9C/id1479806602',
-                                description: 'ReactNative開發APP，雙平台上架',
+                                description: 'React Native開發APP，雙平台上架',
                             },
                         ],
                     },
                     {
                         sectionHeader: 'Mitake三竹資訊',
-                        description: '使用React與Node',
+                        description: 'React、Node',
                         items: [
                             {
                                 title: '玉山證券智慧下單',
                                 projectUrl:
                                     'https://www.esunsec.com.tw/event/smart-intro/index.html',
-                                description: 'React開發WebView',
+                                description: 'React',
                             },
                             {
                                 title: '永豐證券行動下單',
                                 projectUrl: 'https://www.sinotrade.com.tw/ec/20161006/index.html',
-                                description: 'React開發WebView',
+                                description: 'React',
                             },
                         ],
                     },
                     {
                         sectionHeader: 'QNAP威聯通科技',
-                        description: '使用Angular與Node',
+                        description: 'Angular、Node',
                         items: [
                             {
                                 title: 'QNAP解決方案產品',
