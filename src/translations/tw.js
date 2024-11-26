@@ -106,7 +106,7 @@ const tw = {
                         items: [
                             {
                                 title: 'Ubit比特幣錢包',
-                                projectUrl: 'https://www.yubituser.com/',
+                                projectUrl: 'https://ubitme.com/',
                                 description: 'Flutter',
                             },
                             {

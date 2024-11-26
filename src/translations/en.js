@@ -105,7 +105,7 @@ const tw = {
                         items: [
                             {
                                 title: 'Ubit',
-                                projectUrl: 'https://www.yubituser.com/',
+                                projectUrl: 'https://ubitme.com/',
                                 description: 'Flutter',
                             },
                             {
