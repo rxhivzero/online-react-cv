@@ -36,7 +36,7 @@ const tw = {
                         company: '安璞資訊 Amber NetWork',
                         companyWebSite: 'http://www.ambernet.com.tw/',
                         companyMeta: '',
-                        datesBetween: '2021.02 - 在職',
+                        datesBetween: '2021.02 - 2024.11',
                         descriptionTags: ['React', 'React Native', 'Flutter'],
                         description:
                             'The main developments include the Bitcoin wallet Ubit,Game H5 and app',

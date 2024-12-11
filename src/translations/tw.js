@@ -37,7 +37,7 @@ const tw = {
                         company: '安璞資訊 Amber NetWork',
                         companyWebSite: 'http://www.ambernet.com.tw/',
                         companyMeta: '',
-                        datesBetween: '2021.02 - 在職',
+                        datesBetween: '2021.02 - 2024.11',
                         descriptionTags: ['React', 'React Native', 'Flutter'],
                         description:
                             '使用React開發Web與React Native開發app\n使用Flutter開發多平台應用\n主要開發比特幣錢包Ubit、娛樂遊戲H5與APP',
