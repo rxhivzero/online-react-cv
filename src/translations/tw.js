@@ -227,6 +227,14 @@ const tw = {
                 icon: 'comments',
                 items: [
                     {
+                        authority: '2010第15屆大專院校資訊服務創新競賽-公共服務應用創新組',
+                        authorityMeta: '第一名',
+                    },
+                    {
+                        authority: '2010第15屆大專院校資訊服務創新競賽-資訊應用組',
+                        authorityMeta: '第三名',
+                    },
+                    {
                         authority: 'App star 高手爭霸戰',
                         authorityMeta: '電視決選',
                         authorityWebSite: 'https://www.youtube.com/watch?v=MsLMZ4-cP_Q',
@@ -248,12 +256,8 @@ const tw = {
                         authorityMeta: '入圍台灣區決賽',
                     },
                     {
-                        authority: '2010第15屆大專院校資訊服務創新競賽-公共服務應用創新組',
-                        authorityMeta: '第一名',
-                    },
-                    {
-                        authority: '2010第15屆大專院校資訊服務創新競賽-資訊應用組',
-                        authorityMeta: '第三名',
+                        authority: '2014企業架構與資訊科技國際研討會',
+                        authorityMeta: '使用 SBC 軟體架構整合 MVC 模式之研究',
                     },
                 ],
             },
