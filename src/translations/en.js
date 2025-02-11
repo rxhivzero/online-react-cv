@@ -37,7 +37,7 @@ const tw = {
                         companyWebSite: 'http://www.ambernet.com.tw/',
                         companyMeta: '',
                         datesBetween: '2021.02 - 2024.11',
-                        descriptionTags: ['React', 'React Native', 'Flutter'],
+                        descriptionTags: ['React', 'React Native', 'Vue', 'Flutter'],
                         description:
                             'The main developments include the Bitcoin wallet Ubit,Game H5 and app',
                     },

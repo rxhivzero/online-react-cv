@@ -38,9 +38,9 @@ const tw = {
                         companyWebSite: 'http://www.ambernet.com.tw/',
                         companyMeta: '',
                         datesBetween: '2021.02 - 2024.11',
-                        descriptionTags: ['React', 'React Native', 'Flutter'],
+                        descriptionTags: ['React', 'React Native', 'Vue', 'Flutter'],
                         description:
-                            '使用React開發Web與React Native開發app\n使用Flutter開發多平台應用\n主要開發比特幣錢包Ubit、娛樂遊戲H5與APP',
+                            '使用React開發Web與React Native開發app\n使用Flutter開發多平台應用\n使用Vue開發行銷網頁\n主要開發比特幣錢包Ubit、娛樂遊戲H5與APP',
                     },
                     {
                         title: '前端主管',
