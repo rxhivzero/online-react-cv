@@ -23,7 +23,7 @@ const tw = {
                 type: 'text',
                 title: '個人簡介',
                 content:
-                    '擅長javascript、React、React Native、Flutter、Node.js\n專職前端Web、Mobile App開發',
+                    '擅長javascript、React、React Native、Vue、Flutter、Node.js\n專職前端Web、Mobile App開發',
                 icon: 'usertie',
             },
             {

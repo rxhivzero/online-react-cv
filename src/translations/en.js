@@ -22,7 +22,8 @@ const tw = {
             {
                 type: 'text',
                 title: 'Profile',
-                content: 'React, React Native, Node.js\n Front-end Web, Mobile App development',
+                content:
+                    'javascript、React、React Native、Vue、Flutter、Node.js\n Front-end Web, Mobile App development',
                 icon: 'usertie',
             },
             {
