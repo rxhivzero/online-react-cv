@@ -23,7 +23,7 @@ const tw = {
                 type: 'text',
                 title: 'Profile',
                 content:
-                    'javascript、React、React Native、Vue、Flutter、Node.js\n Front-end Web, Mobile App development',
+                    'javascript、React、React Native、Vue2、Vue3、Flutter、Node.js\n Front-end Web, Mobile App development',
                 icon: 'usertie',
             },
             {
@@ -38,7 +38,7 @@ const tw = {
                         companyWebSite: 'http://www.ambernet.com.tw/',
                         companyMeta: '',
                         datesBetween: '2021.02 - 2024.11',
-                        descriptionTags: ['React', 'React Native', 'Vue', 'Flutter'],
+                        descriptionTags: ['React', 'React Native', 'Vue3', 'Flutter'],
                         description:
                             'The main developments include the Bitcoin wallet Ubit,Game H5 and app',
                     },
@@ -48,7 +48,7 @@ const tw = {
                         companyWebSite: 'https://teaches.cc/',
                         companyMeta: '',
                         datesBetween: '2020.03 - 2020.11',
-                        descriptionTags: ['React', 'Vue'],
+                        descriptionTags: ['React', 'Vue2'],
                         description:
                             'Main develop Teaching application platform, online courses, fundraising for users to purchase courses\nIncluding front desk and user management backend',
                     },
