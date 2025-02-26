@@ -35,7 +35,7 @@ const tw = {
                     {
                         title: 'Senior Frontend Developer',
                         company: '安璞資訊 Amber NetWork',
-                        companyWebSite: 'http://www.ambernet.com.tw/',
+                        companyWebSite: '',
                         companyMeta: '',
                         datesBetween: '2021.02 - 2024.11',
                         descriptionTags: ['React', 'React Native', 'Vue3', 'Flutter'],
