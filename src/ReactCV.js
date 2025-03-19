@@ -43,6 +43,15 @@ export default class ReactCV extends Component {
                             } else {
                                 i18n.changeLanguage('zh-TW');
                             }
+
+                            const urlParams = new URLSearchParams(window.location.search);
+
+                            urlParams.set('hl', i18n.language);
+                            window.history.replaceState(
+                                {},
+                                '',
+                                window.location.pathname + '?' + urlParams.toString(),
+                            );
                         }}
                     >
                         <FontAwesomeIcon icon={faLanguage} />
