@@ -17,6 +17,17 @@ module.exports = {
     },
     webpack: {
         configure: (webpackConfig) => {
+            // 移除现有的 ESLint 配置
+            const eslintRule = webpackConfig.module.rules.find(
+                (rule) =>
+                    rule.use &&
+                    rule.use.some((use) => use.loader && use.loader.includes('eslint-loader')),
+            );
+            if (eslintRule) {
+                webpackConfig.module.rules = webpackConfig.module.rules.filter(
+                    (rule) => rule !== eslintRule,
+                );
+            }
             return webpackConfig;
         },
         plugins: [
