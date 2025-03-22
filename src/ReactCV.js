@@ -1,4 +1,5 @@
-import React, { Component } from 'react';
+import React, { memo } from 'react';
+import PropTypes from 'prop-types';
 import Styles from 'ReactCV.module.scss';
 import Profile from '@src/components/Profile';
 import Section from '@src/components/Section';
@@ -9,7 +10,7 @@ import CommonList from '@src/components/CommonList';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDownload, faLanguage } from '@fortawesome/free-solid-svg-icons';
 
-const componnentMap = {
+const componentMap = {
     'experiences-list': ExperiencesList,
     text: Section,
     'projects-list': ProjectsList,
@@ -17,56 +18,55 @@ const componnentMap = {
     'common-list': CommonList,
 };
 
-export default class ReactCV extends Component {
-    render() {
-        const { t, i18n } = this.props;
+const ReactCV = ({ t, i18n, personalData, sections }) => {
+    const handleDownload = () => {
+        window.open('https://drive.google.com/drive/folders/1yMFVwBS40M-GtcfLoaEO2qyMLd1nEVJY');
+    };
 
-        return (
-            <section className={Styles.appContainer}>
-                <div className={Styles.toolBar}>
-                    <div
-                        className={Styles.download}
-                        onClick={() => {
-                            window.open(
-                                ' https://drive.google.com/drive/folders/1yMFVwBS40M-GtcfLoaEO2qyMLd1nEVJY',
-                            );
-                        }}
-                    >
-                        <FontAwesomeIcon icon={faDownload} className={Styles.downloadIcon} />
-                        <div className={Styles.downloadText}> {t('download')}</div>
-                    </div>
-                    <div
-                        className={Styles.language}
-                        onClick={() => {
-                            if (i18n.language === 'zh-TW') {
-                                i18n.changeLanguage('en');
-                            } else {
-                                i18n.changeLanguage('zh-TW');
-                            }
+    const handleLanguageChange = () => {
+        const newLang = i18n.language === 'zh-TW' ? 'en' : 'zh-TW';
+        i18n.changeLanguage(newLang);
 
-                            const urlParams = new URLSearchParams(window.location.search);
+        const urlParams = new URLSearchParams(window.location.search);
+        urlParams.set('hl', newLang);
+        window.history.replaceState({}, '', `${window.location.pathname}?${urlParams.toString()}`);
+    };
 
-                            urlParams.set('hl', i18n.language);
-                            window.history.replaceState(
-                                {},
-                                '',
-                                window.location.pathname + '?' + urlParams.toString(),
-                            );
-                        }}
-                    >
-                        <FontAwesomeIcon icon={faLanguage} />
-                    </div>
+    return (
+        <section className={Styles.appContainer}>
+            <div className={Styles.toolBar}>
+                <div className={Styles.download} onClick={handleDownload}>
+                    <FontAwesomeIcon icon={faDownload} className={Styles.downloadIcon} />
+                    <div className={Styles.downloadText}>{t('download')}</div>
                 </div>
-                <div className={Styles.cvContainer}>
-                    <Profile {...this.props.personalData} />
-                    {this.props.sections.map((sectionDetails, index) => {
-                        const { type } = sectionDetails;
-                        const Comp = componnentMap[type] || Section; // Fallback to section for any case.
-
-                        return <Comp key={index} {...sectionDetails} />;
-                    })}
+                <div className={Styles.language} onClick={handleLanguageChange}>
+                    <FontAwesomeIcon icon={faLanguage} />
                 </div>
-            </section>
-        );
-    }
-}
+            </div>
+            <div className={Styles.cvContainer}>
+                <Profile {...personalData} />
+                {sections.map((sectionDetails, index) => {
+                    const { type } = sectionDetails;
+                    const Comp = componentMap[type] || Section;
+                    return <Comp key={`section-${index}`} {...sectionDetails} />;
+                })}
+            </div>
+        </section>
+    );
+};
+
+ReactCV.propTypes = {
+    t: PropTypes.func.isRequired,
+    i18n: PropTypes.shape({
+        language: PropTypes.string.isRequired,
+        changeLanguage: PropTypes.func.isRequired,
+    }).isRequired,
+    personalData: PropTypes.object.isRequired,
+    sections: PropTypes.arrayOf(
+        PropTypes.shape({
+            type: PropTypes.string.isRequired,
+        }),
+    ).isRequired,
+};
+
+export default memo(ReactCV);
