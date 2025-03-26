@@ -24,7 +24,8 @@
     "scripts": {
         "start": "craco start",
         "build": "craco build",
-        "test": "craco test"
+        "test": "craco test",
+        "build-commit": "npm run build && git add . && git commit -m \"build\""
     },
     "browserslist": {
         "production": [

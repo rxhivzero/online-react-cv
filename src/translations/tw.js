@@ -23,7 +23,7 @@ const tw = {
                 type: 'text',
                 title: '個人簡介',
                 content:
-                    '擅長javascript、React、React Native、Vue2、Vue3、Flutter、Node.js\n專職前端Web、Mobile App開發',
+                    '擅長javascript、React、React Native、Vue、Flutter、Node.js\n專職前端Web、Mobile App開發',
                 icon: 'usertie',
             },
             {
@@ -38,7 +38,7 @@ const tw = {
                         companyWebSite: '',
                         companyMeta: '',
                         datesBetween: '2021.02 - 2024.11',
-                        descriptionTags: ['React', 'React Native', 'Vue3', 'Flutter'],
+                        descriptionTags: ['React', 'React Native', 'Vue', 'Flutter'],
                         description:
                             '使用React開發Web與React Native開發app\n使用Flutter開發多平台應用\n使用Vue開發行銷網頁\n主要開發比特幣錢包Ubit、娛樂遊戲H5與APP',
                     },
@@ -48,7 +48,7 @@ const tw = {
                         companyWebSite: 'https://teaches.cc/',
                         companyMeta: '',
                         datesBetween: '2020.03 - 2020.11',
-                        descriptionTags: ['React', 'Vue2'],
+                        descriptionTags: ['React', 'Vue'],
                         description:
                             '主要開發教學應用平台、線上開課、募資讓使用者購買課程\n包含前台與使用者管理後台',
                     },
