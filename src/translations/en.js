@@ -102,7 +102,7 @@ const tw = {
                 groups: [
                     {
                         sectionHeader: '安璞資訊 Amber NetWork',
-                        description: 'React、React Native、Flutter',
+                        description: 'React、React Native、Vue、Flutter',
                         items: [
                             {
                                 title: 'Ubit',
