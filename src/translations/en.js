@@ -219,7 +219,15 @@ const tw = {
                 type: 'tag-list',
                 title: 'Main skill',
                 icon: 'rocket',
-                items: ['React', 'React Native', 'Flutter', 'Node.js', 'Javascript', 'TypeScript'],
+                items: [
+                    'React',
+                    'React Native',
+                    'Vue',
+                    'Flutter',
+                    'Node.js',
+                    'Javascript',
+                    'TypeScript',
+                ],
             },
             {
                 type: 'common-list',
