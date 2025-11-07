@@ -40,7 +40,7 @@ const tw = {
                         datesBetween: '2021.02 - 2024.11',
                         descriptionTags: ['React', 'React Native', 'Vue', 'Flutter'],
                         description:
-                            'The main developments include the Bitcoin wallet Ubit,Game H5 and app',
+                            'The main developments include the Bitcoin wallet,Game WEB and app',
                     },
                     {
                         title: 'Frontend Leader',
@@ -110,7 +110,7 @@ const tw = {
                                 description: 'Flutter',
                             },
                             {
-                                title: 'Game H5',
+                                title: 'Game',
                                 // projectUrl: 'https://www.maike2020.com/wap/',
                                 description: 'React、React Native',
                             },

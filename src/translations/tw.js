@@ -40,7 +40,7 @@ const tw = {
                         datesBetween: '2021.02 - 2024.11',
                         descriptionTags: ['React', 'React Native', 'Vue', 'Flutter'],
                         description:
-                            '使用React開發Web與React Native開發app\n使用Flutter開發多平台應用\n使用Vue開發行銷網頁\n主要開發比特幣錢包Ubit、娛樂遊戲H5與APP',
+                            '使用React開發Web與React Native開發app\n使用Flutter開發多平台應用\n使用Vue開發行銷網頁\n主要開發比特幣錢包、遊戲平台WEB與APP',
                     },
                     {
                         title: '前端主管',
@@ -110,15 +110,9 @@ const tw = {
                                 description: 'Flutter',
                             },
                             {
-                                title: '娛樂遊戲H5、APP',
-                                // projectUrl: 'https://www.maike2020.com/wap/',
+                                title: '遊戲平台WEB、APP',
                                 description: 'React、React Native',
                             },
-                            // {
-                            //     title: '博貓遊戲APP',
-                            //     projectUrl: 'https://bmnapp.com/',
-                            //     description: 'React Native',
-                            // },
                         ],
                     },
                     {
